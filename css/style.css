@@ -43,7 +43,7 @@ a {
     color: black;
     text-decoration: none;
 }
-  a:hover.
+  a:hover,
   a:focus {
       color: #CCC9FD;
       text-decoration: underline;
@@ -79,6 +79,8 @@ a {
       border: 2px solid black;
   }
 
-  .button.contact:hover {
+  .button.contact:hover,
+  .button.contact:focus {
       color:#CCC9FD;
+      border: 2px solid #CCC9FD;
   }
