@@ -17,22 +17,22 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: 2.75em;
+    font-size: 1.75em;
     font-weight: 900;
 }
 
 h2 {
-    font-size: 2.75em;
+    font-size: 1.75em;
     font-weight: 600;
 }
 
 h3 {
-    font-size: 2.75em;
+    font-size: 1.75em;
     font-weight: 400;
 }
 
 h4 {
-    font-size: 2.75em;
+    font-size: 1.75em;
     font-weight: 300;
 }
 
@@ -87,6 +87,6 @@ a:focus {
   }
 
 #logo {
-    width: 150px;
+    width: 250px;
     height: auto;
 }
