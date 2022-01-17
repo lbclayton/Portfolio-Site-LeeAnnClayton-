@@ -12,6 +12,10 @@ body {
     line-height: normal;
 }
 
+#grad {
+    background-image: linear-gradient(#c4c4c4, #d58ef9);
+  }
+
 h1, h2, h3, h4 {
     line-height: normal;
 }
