@@ -46,7 +46,7 @@ a {
   a:hover.
   a:focus {
       color: #CCC9FD;
-      text-decoration: none;
+      text-decoration: underline;
       
   }
   a:visited {
@@ -68,6 +68,7 @@ a {
 
   .button:hover {
       opacity: 0.8;
+      color: #CCC9FD;
       text-decoration: none;
   }
 
@@ -76,4 +77,8 @@ a {
       color: black;
       text-transform: uppercase;
       border: 2px solid black;
+  }
+
+  .button.contact:hover {
+      color:#CCC9FD;
   }
