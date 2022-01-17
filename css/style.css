@@ -1,12 +1,12 @@
 /*
 Colors used:
-Primary Color (Blue): #05676e;
-Secondary Color (Green): #489c79;
+Primary Color (Purple): #CCC9FD;
+Secondary Color (Green): #7CF5D2;
 */
 
 
 body {
-    background-color: lightgrey;
+    background-color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: normal;
@@ -38,4 +38,37 @@ h4 {
 
 img {
     width: 100%;
+  }
+
+  a:hover.
+  a:focus {
+      color: #CCC9FD;
+      text-decoration: none;
+  }
+  a:visited {
+      color: #CCC9FD;
+      font-style: italic;
+  }
+
+  .button {
+      display: inline-block;
+      background-color: #CCC9FD;
+      color: white;
+      font-weight: 700;
+      padding: 10px;
+      border-radius: 3px;
+      border-bottom: 2px solid black;
+      transition: 0.2s opacity;
+  }
+
+  .button:hover {
+      opacity: 0.8;
+      text-decoration: none;
+  }
+
+  .button.contact {
+      background-color: transparent;
+      color: #CCC9FD;
+      text-transform: uppercase;
+      border: 2px solid black;
   }
