@@ -39,7 +39,9 @@ h4 {
 img {
     width: 100%;
   }
-
+a {
+    color: black;
+}
   a:hover.
   a:focus {
       color: #CCC9FD;
@@ -52,8 +54,8 @@ img {
 
   .button {
       display: inline-block;
-      background-color: #CCC9FD;
-      color: white;
+      background-color: transparent;
+      color: black;
       font-weight: 700;
       padding: 10px;
       border-radius: 3px;
@@ -68,7 +70,7 @@ img {
 
   .button.contact {
       background-color: transparent;
-      color: #CCC9FD;
+      color: black;
       text-transform: uppercase;
       border: 2px solid black;
   }
