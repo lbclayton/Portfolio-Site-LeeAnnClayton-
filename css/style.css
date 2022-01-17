@@ -41,25 +41,28 @@ img {
   }
 a {
     color: black;
+    text-decoration: none;
 }
   a:hover.
   a:focus {
       color: #CCC9FD;
       text-decoration: none;
+      
   }
   a:visited {
       color: #CCC9FD;
       font-style: italic;
+      text-decoration: none;
   }
 
   .button {
       display: inline-block;
       background-color: transparent;
-      color: black;
+      color: #CCC9FD;
       font-weight: 700;
       padding: 10px;
       border-radius: 3px;
-      border-bottom: 2px solid black;
+      border: 2px solid #CCC9FD;
       transition: 0.2s opacity;
   }
 
