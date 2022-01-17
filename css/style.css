@@ -91,6 +91,6 @@ a:focus {
     height: auto;
 }
 
-#logo.hover {
-    color:#CCC9FD;
+.icon:hover {
+    fill:#CCC9FD;
 }
