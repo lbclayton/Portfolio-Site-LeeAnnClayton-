@@ -93,6 +93,7 @@ a:focus {
 #logo {
     width: 250px;
     height: auto;
+    fill: black;
 }
 
 .icon:hover {
