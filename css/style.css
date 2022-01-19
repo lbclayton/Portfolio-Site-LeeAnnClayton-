@@ -105,3 +105,9 @@ a:focus {
 .icon:hover {
     fill:#CCC9FD;
 }
+
+/* Layout styling */
+
+.container {
+    padding: 0 15px;
+  }
