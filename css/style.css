@@ -13,7 +13,8 @@ body {
 
 header {
     background-color: #ff44c4;
-    padding: 10px;
+    text-align: center;
+    padding: 10px 0;
     margin: 10px;
     border-bottom: 3px solid #4a4a4a;
   }
@@ -97,7 +98,7 @@ a:focus {
   }
 
 #logo {
-    width: 250px;
+    max-width: 250px;
     height: auto;
     fill: black;
 }
@@ -121,3 +122,39 @@ a:focus {
     border-bottom: 1px 
     solid #4a4a4a; 
 }
+
+#hero {
+    background-color: #ffe4c4;
+  }
+
+#hero h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0.67em; 0;
+  }
+
+  /* nav bar styling */
+
+  nav > ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+    width: 100%;
+  }
+
+  nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+  }
+
+  nav > ul > li > a:visited {
+    padding: 0 15px;
+    text-transform: uppercase; underline;
+    font-weight: 700;
+    color: #CCC9FD;
+  }
