@@ -12,11 +12,19 @@ body {
 }
 
 header {
-    background-color: #ff44c4;
+    background-color: white;
     text-align: center;
     padding: 10px 0;
-    margin: 10px;
     border-bottom: 3px solid #4a4a4a;
+    -webkit-box-shadow: 0px 5px 30px 0px rgba(50, 50, 50, 0.28);
+-moz-box-shadow:    0px 5px 30px 0px rgba(50, 50, 50, 0.28);
+box-shadow:         0px 5px 30px 0px rgba(50, 50, 50, 0.28);
+width: 100%;
+position: fixed
+  }
+
+main {
+    padding-top: 133px;
   }
 
 #grad {
@@ -28,7 +36,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: 1.75em;
+    font-size: 3em;
     font-weight: 900;
 }
 
@@ -49,7 +57,8 @@ h4 {
 
 img {
     width: 100%;
-  }
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -114,7 +123,16 @@ a:focus {
   }
   
 .row {
-    margin: 25px 0;
+    margin: 10px 0;
+    display:inline;
+    width: 100%;
+}
+
+.case.study {
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
 }
 
 #work .row { 
@@ -123,39 +141,75 @@ a:focus {
     solid #4a4a4a; 
 }
 
+#info {
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
 #hero {
-    background-color: #ffe4c4;
+    background-color: #ffffff;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
   }
 
 #hero h1 {
     text-align: center;
-    margin: 0;
-    padding: 0.67em; 0;
   }
+
+body#hero h1, h2, h3, h4, p, span, a {
+    color: black;
+}
+
+body#info h1, h2, h3, h4, p, span, a {
+    color: black;
+}
 
   /* nav bar styling */
 
-  nav > ul {
+nav > ul {
     list-style-type: none;
     padding: 0;
-    display: inline;
   }
 
-  nav > ul > li {
+nav > ul > li {
     display: inline;
     width: 100%;
   }
 
-  nav > ul > li > a {
+nav > ul > li > a {
     padding: 0 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: black;
   }
 
-  nav > ul > li > a:visited {
+nav > ul > li > a:visited {
     padding: 0 15px;
     text-transform: uppercase; underline;
     font-weight: 700;
     color: #CCC9FD;
   }
+
+  /* footer styling */
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.icon {
+      margin: 10px;
+}
+
+ul#icons {
+    list-style-type: none;
+    padding: 20px;
+}
+
+ul#icons > li {
+    display: inline;
+    width: 100%;
+}
+
