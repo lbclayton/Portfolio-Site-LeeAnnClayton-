@@ -234,6 +234,37 @@ ul#icons > li {
     width: 100%;
 }
 
+@keyframes color-change {
+    0% {fill: #edc655;}
+    50% {fill: #fcffad;}
+    100% {fill: #f76414;}
+  }
+
+
+  .sun {
+    animation: 4s color-change infinite alternate linear;
+  }
+
+  @keyframes cloud-move {
+    from {transform: translate(0,50px);}
+    to {transform: translate(200px,50px);}
+  }
+
+  .cloud-front {
+    animation: 30s cloud-move infinite alternate linear;
+  }
+
+  @keyframes cloud-move-reverse {
+    from {transform: translate(446px,48px);}
+    to {transform: translate(100px, 48px);}
+  }
+
+  .cloud-back {
+    animation: 34s cloud-move-reverse infinite alternate linear;
+  }
+  
+
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -260,7 +291,7 @@ Medium devices (640px and larger)
       }
 
       .col-md-6 {
-        width: 60%;
+        width: 50%;
         float: left;
       }
 
@@ -292,12 +323,12 @@ Large devices (1024px or larger)
 @media only screen and (min-width: 1024px) {
 
     .col-lg-7 {
-        width: 65%;
+        width: 60%;
         float: left;
       }
 
     .col-lg-5 {
-        width: 35%;
+        width: 40%;
 
     }
 
@@ -307,7 +338,7 @@ Large devices (1024px or larger)
     }
 
     .container {
-        padding: 0 50px;
+        padding: 0 150px;
       }
 
 }
