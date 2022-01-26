@@ -37,12 +37,13 @@ h2, h3, h4 {
 }
 
 h1 {
-    line-height: 43px;
+    line-height: normal;
     font-size: 3em;
     font-weight: 900;
 }
 
 h2 {
+    line-height: normal;
     font-size: 2em;
     font-weight: 900;
 }
@@ -217,6 +218,9 @@ footer {
     text-align: center;
     margin-top: 20px;
     padding: 10px;
+    left:0px;
+    bottom:0px;
+    width:100%;
 }
 
 .icon {
@@ -271,15 +275,24 @@ Medium devices (640px and larger)
 @media only screen and (min-width: 640px) {
     header {
         text-align: unset;
+        padding: 20px 0 13px;
       }
     
       nav {
         width: auto;
-        display: inline;
         float: right;
-        margin-top: 0px;
+        margin-top: 4px;
       }
 
+      main {
+          padding-top: 99px;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+      }
 
       #hero span {
         display: block;
@@ -295,11 +308,14 @@ Medium devices (640px and larger)
         float: left;
       }
 
-
       .row::after {
         content: "";
         clear: both;
         display: table;
+      }
+
+      .row {
+          padding: 10px;
       }
 
       #about-page h3 { 
@@ -315,7 +331,10 @@ Medium devices (640px and larger)
         padding-bottom: 50px; 
     }
 
-    }
+
+
+
+}
 
 /* ==============================
 Large devices (1024px or larger)
@@ -337,9 +356,6 @@ Large devices (1024px or larger)
         border: 5px solid black;
     }
 
-    .container {
-        padding: 0 150px;
-      }
 
 }
 /* ==============================
@@ -354,21 +370,24 @@ X-large devices (1440px or larger)
     }
     
     h2 {
-        font-size: 5em;
+        line-height: normal; 
+        font-size: 4em;
         font-weight: 600;
     }
     
     h3 {
-        font-size: 4em;
+        line-height: normal; 
+        font-size: 3em;
         font-weight: 400;
     }
     
     h4 {
-        font-size: 3em;
+        line-height: normal; 
+        font-size: 2em;
         font-weight: 300;
     }
 
-    p {
+    li p {
         font-size: 1.75em;
     }
 
