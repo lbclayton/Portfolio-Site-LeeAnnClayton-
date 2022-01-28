@@ -132,7 +132,7 @@ a:focus {
     width: 100%;
 }
 
-#casestudy {
+.casestudy {
     padding-top: 40px;
     padding-right: 30px;
     padding-bottom: 40px;
@@ -144,7 +144,7 @@ a:focus {
     padding-bottom: 25px; 
 }
 
-#info {
+.info {
     border-radius: 29px;
     border: 2px solid black;
 }
@@ -164,7 +164,7 @@ body#hero h1, h2, h3, h4, p, span, a {
     color: black;
 }
 
-body#info h1, h2, h3, h4, p, span, a {
+body.info h1, h2, h3, h4, p, span, a {
     color: black;
 }
 
@@ -319,12 +319,12 @@ Medium devices (640px and larger)
       }
 
 
-     #info {     
+     .info {     
         margin-top: 50px;
         }
 
 
-    #casestudy {
+    .casestudy {
         padding-top: 40px;
         padding-bottom: 50px; 
     }
@@ -349,7 +349,7 @@ Large devices (1024px or larger)
 
     }
 
-    #info {
+    .info {
         margin-top: 150px;
         border: 5px solid black;
     }
@@ -399,12 +399,12 @@ X-large devices (1440px or larger)
         float: right;
     }
 
-    #info {
+    .info {
         margin-top: 150px;
         border: 5px solid black;
     }
 
-    #casestudy {
+    .casestudy {
         padding-top: 80px;
         padding-bottom: 50px; 
     }
