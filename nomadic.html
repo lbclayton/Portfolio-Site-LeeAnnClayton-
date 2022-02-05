@@ -12,59 +12,63 @@
   <link rel="icon" type="image/png" href="img/favicomatic/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="img/favicomatic/favicon-16x16.png" sizes="16x16" />
 
+  <script src="https://kit.fontawesome.com/acb190f739.js" crossorigin="anonymous"></script>
+
   <title>Nomadic Case Study</title>
 
   <header>
-    <div class="container">
-      <div class="row">
-      <div style="display: inline-block;">
-    <a href="index.html">
-      <h4 class="logo">LeeAnn Clayton</h4>
-  </a>
-    </div>
+    <div class="navtoggle" id="myNavtoggle">
+      <div class="container">
+        <div class="row">
+          <div style="display: inline-block">
+            <a href="index.html">
+              <h4 class="logo">LeeAnn Clayton</h4>
+            </a>
+          </div>
 
-    <nav>
-      <ul>
-        <li><a href="index.html">Work</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-  </div>
+          <nav>
+            <ul>
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li onclick="menuToggle()"><a href="#contact">Contact</a></li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                  ><i class="fas fa-bars"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
   </header>
 
 
 </head>
 
-<body>
+<body id="nomadic">
   <main>
     <div>
       <div>
-        <div class="container">
 
-          <!-- start 2 columns -->
-          <div>
-            <!-- column 1 -->
-            <h2>Adobe XD</h2>
-          </div> <!-- end column 1 -->
-          <div>
-            <!-- column 2 -->
-            <h2>UX & UI Design</h2>
-          </div><!-- end of column 2 -->
-        </div> <!-- end 2 columns -->
-          <picture><img src="img/nomadic/1_nomadic.png" alt="Nomadic Splash Image"></picture>
-          <div class="container">
+        <picture><img src="img/nomadic/1_nomadic.png" alt="Nomadic Splash Image"></picture>
+
+        <div class="casestudycontainer">
+          
+          
           <h2>Not just a trail finder</h2>
           <span>As hiking and outdoor recreation become more and more popular users grow tired of using major search engines to locate new trails and seek something more human centered to discover “hidden gems” in their area and abroad.
           </span>
-        </div>
+        
         <div><!-- start research section -->
-          <div class="container">
+          
           <h2>Empathize & Research</h2>
         </div>
         <div>
-          <div class="container">
+          
             <h3>Hypothesis</h3>
           <span>Users will have a straightforward way to discover new trails and activities curated to their needs and desires.</span>
           <h3>Feature Requirements:</h3>
@@ -74,10 +78,11 @@
             <li>When looking for new trails, I want to sort by my needs, so I can find the best possible trail based on current needs.</li>
           </ol>
         </div>
+      </div>
           <div>
           <picture><img src="img/nomadic/2_nomadic.png" alt="Nomadic Product Mock Up"></picture>
           </div>
-          <div class="container">
+          <div class="casestudycontainer">
             <h3>Personas</h3>
           <span>After some initial research and planning I went to interview three potential users for my hypothesis to gain more insights into my research and to understand what users may need in a hiking app.</span>
         <picture><img src="img/nomadic/4_nomadic.png" alt="Nomadic Personas"></picture>
@@ -86,42 +91,45 @@
           to create a feature that would help stand out amongst major search engines. I added a feature called "Explore Worldwide" which would allow users to see a curated list of hiking trails worldwide.
         </span>
       </div>
+   
       <picture><img src="img/nomadic/7_nomadic.png" alt="Nomadic Product Image"></picture>
         </div>
         </div><!-- end research section -->
 
         <div><!-- start sketching and planning section -->
-          <div class="container">
+          <div class="casestudycontainer">
             <h1>Sketching & Planning</h1>
-          </div>
-          <div class="container">
+          
             <h2>User Flow</h2>
             <span>This is my final user flow adjusted for all the insights and pivots I made throughout the user research phase.</span>
+          </div>
+          <div class="container">
             <picture><img src="img/nomadic/18_nomadic.png" alt="User Flow"></picture>
           </div>
           </div>
+          
 
 
-          <div class="container">
+          <div class="casestudycontainer">
             <h2>Low Fidelity Wireframes</h2>
             <span>Using the Crazy Eights method I created my initial low fidelity wireframes and marked which layouts would work best for the app.</span>
           </div>
           <picture><img src="img/nomadic/6_nomadic.png" alt="Low Fidelity Wireframes"></picture>
 
-          <div class="container">
+          <div class="casestudycontainer">
           <h2>Test</h2>
         <span>After sketching the wireframes, I created a low fidelity prototype to test on my potential users. I recreated some of the screens to make sure the elements were clear and legible.</span></div>
-          <div class="container">
+          <div class="casestudycontainer">
             <div><h2>Insights & Pivot</h2>
               <span>I found that users were not clear on the original concept for the hidden gems, which was a curated list of top rated hiking trails around the world called “Explore Worldwide”. I decided to rework “Explore Worldwide into “Hidden Gems” which would allow hikers to submit places that stood out to them on their hikes for other hikers to see. This “hidden gem” feature would allow the website to stand out as a more community based trail finder while also providing a straightforward way for users to find trails in their area and abroad.</span>
             </div>
           </div>
           </div>
 
-           <div class="container">
+          <div class="casestudycontainer">
             <picture><img src="img/nomadic/5_nomadic.png" alt="Nomadic Wireframe Changes"></picture>
             <h2>
-              Mid Fifelity Wireframes
+              Mid Fidelity Wireframes
             </h2>
             <picture><img src="img/nomadic/8_nomadic.png" alt="Mid Fifelity Wireframes"></picture>
           </div>
@@ -130,40 +138,47 @@
 <picture><img src="img/nomadic/2_nomadic.png"></picture>
         <div>
           <!-- start design section -->
-          <div class="container">
+          <div class="casestudycontainer">
             <h1>Design & Brand</h1>
           </div>
-          <div class="container">
+          <div class="casestudycontainer">
             <h2>Mood Boards</h2>
             <span>I selected inspiration for the design of Nomadic to have a “retro-modern” look that would appeal to outdoors-y folks and still have a human touch which is central to the concept of this app.</span>
           </div>
           <picture><img src="img/nomadic/9_nomadic.png" alt="Mood Board"></picture>
-          <div class="container">
+          <div class="casestudycontainer">
             <h2>Style Guide</h2>
-                <picture><img src="img/nomadic/12_nomadic.png" alt="Style Guide"></picture>
+            <span></span>
+
           </div>
+                <picture><img src="img/nomadic/nomadic_styleguide.png" alt="Style Guide"></picture>
+          
         </div><!-- end design section -->
 
         <div>
           <!-- start final screens section -->
-          <div class="container">
+          <div class="casestudycontainer">
             <h2>Final UI & Key Features</h2>
-          </div>
-          <h3 class="container">Responsive</h3>
-          <picture><img src="img/nomadic/11_nomadic.png" alt="Responsive Mockup"></picture>
-          <h3 class="container">Search & Filter for Hiking Trails Near and Abroad</h3>
-          <div class="container">
-          <picture><img src="img/nomadic/13_nomadic.png" alt="Final Screens"></picture>
-          <h3>Get Directions</h3>
-          <picture><img src="img/nomadic/14_nomadic.png" alt="Final Screens"></picture>
-          <h3>Vote on and Save Hidden Gems</h3>
-          <picture><img src="img/nomadic/16_nomadic.png" alt="Final Screens"></picture>
+          <h3>Responsive</h3>
         </div>
+          <picture><img src="img/nomadic/11_nomadic.png" alt="Responsive Mockup"></picture>
+          <h3 class="casestudycontainer">Search & Filter for Hiking Trails Near and Abroad</h3>
+          <div class="casestudycontainer">
+          <picture><img src="img/nomadic/13_nomadic.png" alt="Final Screens"></picture>
+          <div class="casestudycontainer">
+          <h3>Get Directions</h3>
+          </div>
+          <picture><img src="img/nomadic/14_nomadic.png" alt="Final Screens"></picture>
+          <div class="casestudycontainer">
+          <h3>Vote on and Save Hidden Gems</h3>
+        </div>
+          <picture><img src="img/nomadic/16_nomadic.png" alt="Final Screens"></picture>
+       
         </div><!-- end final screens section -->
 
-        <div class="container">
+        <div class="casestudycontainer">
           <!-- start conclusion section -->
-          <div>
+          <div style="padding-bottom: 50px;">
             <h1>Conclusion</h1>
             <span>Nomadic was a major project that really helped refine my UX research process as well as refine my synthesis skills from my research. A key take away was not to assume what users need but ask and determine what would be best service users. In my process I ended up pivoting this project twice but gained a better understanding of users and user needs.</span>
           </div>
@@ -219,7 +234,12 @@
         </div>
       </footer>
   </main>
-  <script src="js/scripts.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 
 </html>
