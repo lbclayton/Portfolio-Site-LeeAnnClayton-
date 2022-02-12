@@ -1,6 +1,6 @@
 /*
 Colors used:
-Primary Color (Purple): #CCC9FD;
+Primary Color (Purple): #645BF9;
 Secondary Color (Mint): #7CF5D2;
 */
 
@@ -13,7 +13,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 150%;
-  color: black;
+  color: #272727;
 }
 
 header {
@@ -65,18 +65,18 @@ img {
 }
 
 a {
-  color: black;
+  color: #272727;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #ccc9fd;
+  color: #645bf9;
   text-decoration: none;
 }
 
 a:visited {
-  color: #ccc9fd;
+  color: #645bf9;
   font-style: italic;
   text-decoration: none;
 }
@@ -84,46 +84,50 @@ a:visited {
 .button {
   display: inline-block;
   background-color: transparent;
-  color: #ccc9fd;
+  color: #645bf9;
   font-weight: 700;
   padding: 10px;
   border-radius: 11px;
-  border: 3px solid #ccc9fd;
+  border: 3px solid #645bf9;
   transition: 0.2s opacity;
 }
 
 .button:hover {
   opacity: 0.8;
-  color: #ccc9fd;
+  color: #645bf9;
   text-decoration: none;
 }
 
 .button.contact {
   background-color: transparent;
-  color: black;
+  color: #272727;
   text-transform: uppercase;
-  border: 3px solid black;
+  border: 3px solid #272727;
 }
 
 .button.contact:hover,
 .button.contact:focus {
-  color: #ccc9fd;
-  border: 3px solid #ccc9fd;
+  color: #645bf9;
+  border: 3px solid #645bf9;
 }
 
 .icon:hover {
-  fill: #ccc9fd;
+  fill: #645bf9;
 }
 
 /* Layout styling */
 .container {
-  padding: 0 15px 0 15px;
+  padding: 0 20px 0 20px;
   margin: auto;
 }
 
 .casestudycontainer {
   padding: 0 15px 0 15px;
   margin: auto;
+}
+
+#work {
+  padding-top: 50px;
 }
 
 .row {
@@ -140,16 +144,15 @@ a:visited {
 }
 
 #work.row {
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 
 .info {
   border-radius: 29px;
-  border: 5px solid black;
+  border: 5px solid #272727;
 }
 
 #hero {
-  background-color: #ffffff;
   padding: 10px 0;
   display: inline-block;
 }
@@ -164,7 +167,7 @@ h4,
 p,
 span,
 a {
-  color: black;
+  color: #272727;
 }
 
 body.info h1,
@@ -174,7 +177,7 @@ h4,
 p,
 span,
 a {
-  color: black;
+  color: #272727;
 }
 
 /* nav bar styling */
@@ -194,14 +197,14 @@ nav > ul > li > a {
   text-transform: lowercase;
   font-size: 0.75em;
   font-weight: 700;
-  color: black;
+  color: #272727;
 }
 
 nav > ul > li > a:visited {
   padding: 0 10px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #ccc9fd;
+  color: #645bf9;
 }
 
 .navtoggle li:not(:last-child) {
@@ -231,7 +234,7 @@ nav > ul > li > a:visited {
 .navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid black;
+  border-top: 1px solid #272727;
 }
 
 .navtoggle.responsive li:last-child {
@@ -257,7 +260,7 @@ footer#contact a {
 
 footer {
   color: white;
-  background-color: black;
+  background-color: #272727;
   text-align: center;
   margin-top: 20px;
   padding: 10px;
@@ -311,7 +314,7 @@ Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
   main {
-    padding-top: 150px;
+    padding-top: 180px;
   }
 
   header {
@@ -380,7 +383,7 @@ Medium devices (640px and larger)
   .casestudy {
     padding-top: 5px;
     padding-bottom: 50px;
-    float: rights;
+    float: right;
   }
 }
 
@@ -449,7 +452,7 @@ Large devices (1024px or larger)
 
   .info {
     margin-top: 150px;
-    border: 5px solid black;
+    border: 5px solid #272727;
   }
 }
 
@@ -469,7 +472,7 @@ X-large devices (1440px or larger)
 
   .info {
     margin-top: 150px;
-    border: 5px solid black;
+    border: 5px solid #272727;
   }
 
   .casestudy {
